@@ -8,15 +8,15 @@
 ## 'cacheSolve' function takes the special 'list' and checks if inverse
 ## for the same is already calculated and stored in the cache. If found,
 ## it returns the inverse as it is without calculating again (Saving time
-## computation power). Else, the inverse if calculated again.
+## and computation power). Else, the inverse is calculated again.
 
 
 ## 'makeCacheMatrix' function
 ##
 ## 'x' is a invertible matrix whose inverse is to be calculated
 ##
-## Returns a list of required functions, which are while calculating the matrix
-## inverse
+## Returns a list of required functions, which are used while calculating 
+## the matrix inverse
 ## NOTE: Ensure that the entered matrix is invertible
 
 makeCacheMatrix <- function(x = matrix()) {
